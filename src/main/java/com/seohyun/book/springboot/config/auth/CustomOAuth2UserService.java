@@ -4,6 +4,7 @@ import com.seohyun.book.springboot.config.auth.dto.OAuthAttributes;
 import com.seohyun.book.springboot.config.auth.dto.SessionUser;
 import com.seohyun.book.springboot.domain.user.User;
 import com.seohyun.book.springboot.domain.user.UserRepository;
+
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.oauth2.client.userinfo.DefaultOAuth2UserService;
