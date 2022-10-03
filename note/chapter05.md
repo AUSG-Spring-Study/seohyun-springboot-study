@@ -67,7 +67,7 @@
 - 로그인 테스트
   - 실행시킨 후 구글 로그인을 진행해본다.
   - 글을 작성하려고 시도하면 403 에러가 발생하는 것을 확인한다.
-  - ![로그인 확인](./sshot/chapter5_login.PNG)
+  - ![로그인 확인](./sshot/chapter5_login.png)
   - h2-console로 접속하여 권한을 USER로 변경한다.
 
 - 어노테이션 기반으로 개선하기
@@ -92,4 +92,4 @@
   - spring-sesison-jdbc 등록
     - h2-console에 접속해보면 테이블 2개가 생성된 것을 확인할 수 있는데 이는 JPA로 인해 자동 생성된 세션 테이블
     - 로그인을 하게되면 SPRING_SESSION에 한 개의 세션이 등록된 것을 확인할 수 있음
-    - ![세션 등록 확인](./sshot/chapter5_spring_session.PNG)
+    - ![세션 등록 확인](./sshot/chapter5_spring_session.png)
