@@ -93,3 +93,10 @@
     - h2-console에 접속해보면 테이블 2개가 생성된 것을 확인할 수 있는데 이는 JPA로 인해 자동 생성된 세션 테이블
     - 로그인을 하게되면 SPRING_SESSION에 한 개의 세션이 등록된 것을 확인할 수 있음
     - ![세션 등록 확인](./sshot/chapter5_spring_session.png)
+
+- 기존 테스트에 시큐리티 적용하기
+  - 시큐리티 옵션 활성화 시 인증된 사용자만 API 호출 가능
+  - 전체 테스트 수행 방법
+    - Gradle -> Tasks -> verification -> test
+  - @WithMockUser로 가짜로 인증된 사용자를 생성함
+  - 
