@@ -8,4 +8,4 @@
 - [6주차](note/chapter06.md) AWS 서버 환경을 만들어 보자 - EC2
 - [7주차](note/chapter07.md) AWS에 데이터베이스 환경을 만들어보자 - AWS RDS
 - [6,7주차 복습](note/chapter06_07_review.md) 6,7주차 AWS EC2, RDS 복습
-- [8주차](note/chapter08.md)
+- [8주차](note/chapter08.md) EC2 서버에 프로젝트를 배포해 보자
